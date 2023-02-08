@@ -1,0 +1,35 @@
+El código de JS se asocio al archivo de html. Hay dos formas de esribir código.
+1) A traves de etiquetas <script>
+2) A traves de ruta <script src="js/main.js">
+
+
+Una variable es un espacio de memoria para almacenar información.
+Const: No va a cambiar de valor en el tiempo (nombre y apellidos)
+Let: Puede cambiar su valor en el tiempo (edades)
+Para crear variables: const apellido = "Ruiz";
+(mejor no utilizar la "ñ" y crear con const)
+
+Los valores pueden ser number (números) o string (cadena de texto)
+
+Operaciones básicas:
+const numero1 = 5
+const numero2 = 10
+const numero3 = 2
+const texto1 = Hola
+const texto2 = Chau
+const texto3 = Auto
+
+resultadoSuma = numero1 + numero2 // 5 + 10 = 15
+
+CONSOLE LOG
+console.log(resultadoSuma)
+console.log("El resultado de la multiplicación es " + resultadoSuma)
+console.log(texto3)
+
+PROMPT: Devuelve todo en string
+const nombre = prompt("Ingrese el nombre")
+const apellido = prompt("Ingrese el apellido")
+
+console.log("Indique su nombre " + nombre)
+console.log("Indique su apellido + apellido")
+

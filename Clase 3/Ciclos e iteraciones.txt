@@ -1,0 +1,25 @@
+CICLOS E ITERACIONES
+
+Un ciclo es un medio rapido para hacer algo sencillamente
+Las mas conocidas son for, while y do while y estos se divide en dos grupos:
+Ciclos por conteo: Se repiten un numero finito de veces (for)
+Ciclos condicionales: Se repiten mientras una condicion sea verdadera, hasta que sea falsa. (while y do while)
+
+FOR
+El desde es la zona en donde se van a establecer los valores iniciales de las variables.
+El hasta es el unico elemento que decide si se repite o se detiene el ciclo.
+La actualizacion es el nuevo valor que se asigna despues de cada repeticion a las variables que controlan la repeticion. (Puede ser I = i +1 ó i ++)
+La sentencia BREAK sirve para cortar el ciclo for.
+La sentencia CONTINUE sirve para saltearse un ciclo.
+
+WHILE
+Permite crear bucles que se ejecutan 0 o mas veces dependiendo de la condicion indicada. 
+Mientras se cumpla la condicion indicada, repite las instrucciones incluidas dentro del bucle.
+Si la comparacion no se realiza adecuadamente podemos generar el llamado bucle infinito.
+
+DO WHILE
+Permite crear bucles que se ejecutan una o mas veces, dependiendo la condicion indicada
+A diferencia del while, garantiza que el bloque de codigo se interpreta al menos una vez, porque la condicion se evalua al final
+
+SWITCH
+Esta especialmente diseñada para manejar de forma sencilla multples condiciones sobre la misma variable (Se puede resolver con un IF pero el switch es mas ordenado).

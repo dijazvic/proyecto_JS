@@ -1,0 +1,20 @@
+ARRAYS
+Es un tipo de dato que sirve para almacenar valores en forma de lista, pueden ser cualquiera de los vistos hasta ahora.
+Los arrays tiene un valor que va desde el 0 hasta el ultimo elemento.
+
+developermozilla.org
+
+PROPIEDADS Y METODOS
+
+El LENGHT se usa para definir el limite de una interacion sobre un array, ya que la esta propiedad permite saber expliicitamente la longitud del mismo. (Averiguar longitud)
+el metodo PUSH (Agregar)
+el metodo UNSHIFT (Agregar)
+Si queremos eliminar el primer elemento utilizamos el metodo SHIFT (Quitar)
+si queremos eliminar el ultimo elemento utilizamos el metodo POP (Quitar)
+el metodo SPLICE sirve para marcar un primer parametro y el segundo indica cual sera el parametro siguiente (Quitar)
+con el metodo JOIN generamos un string (Juntar)
+con el metodo CONCAT podemos combinar dos arrays (Combinar)
+el metodo SLICE solo seleccionara los valores que queremos ubicar dentro del array (Cortar)
+el metodo INDEXoF indicara el numero de array en el cual se encuentre ubicado (Obtener indice)
+el metodo INCLUDES indiciara si el parametro pertenece o no al array correspondiente (Verificar existencia)
+el metodo REVERSE invierte el orden de los elementos (Invertir el orden)

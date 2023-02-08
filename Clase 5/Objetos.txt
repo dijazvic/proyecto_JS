@@ -1,0 +1,7 @@
+OBJETOS
+Un objeto es una coleccion de datos relacionados como una entidad. Contienen propiedades y valores agrupados.
+
+CONSTRUCTORES
+El constructor de un objeto es una funcion que usamos para crear un nuevo objeto cada vez que sea necesario.
+
+METODOS PERSONALIZADOS

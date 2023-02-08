@@ -1,0 +1,23 @@
+CONDICIONALES
+Primero ponemos la condición y luego la operación.
+if (true) { console.log ("Se verá este mensaje") }
+Cuando usamos un operador de comparación lo que va a devolver es un valor verdadero o falso.
+
+OPERADOR DE ASIGNACIÓN (=)
+OPERADOR DE EQUIVALENCIA (==)
+Se tiene que utilizar dos iguales ya que si no siempre se cumplirá la condición. 
+
+ELSE
+Si se cumple esta condición, hacelo. SI NO SE CUMPLE HACE ESTO OTRO.
+
+ELSE IF
+Si la condición anterior es falsa, continua hacia la siguiente.
+
+
+OPERADORES LÓGICOS
+And(&&): Ambas variables tienen que cumplirse.
+Or(||): Si solo una de las variables es verdadera, alcanza. (Se distingue entre mayusculas y minusculas)
+Not (!): Niega a la variable booleana y la invierte (Si es F la hace V y viceversa)
+
+
+

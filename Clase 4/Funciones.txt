@@ -1,0 +1,12 @@
+FUNCIONES
+
+En programacion una funcion es un conjunto de instrucciones que se agrupan para realizar una tarea concreta que se puede reutilizar a lo largo de diferentes instancias del codigo.
+
+Cuando ejecutamos funciones mas complejas, necesitamos recibir cierta informacion, para esto utilizamos lo PARÁMETROS. Los utilizamos cuando le enviamos a la funcion valores para ser empleados en sus operaciones
+
+El SCOPE de una variable es la zona del programa en la cual se define el contexto al que pertenece la misma dentro de un algoritmo restringiendo su uso y alcance. JS define dos ámbitos para las variables: global y local.
+
+FUNCIONES ANÓNIMAS
+Es una funcion que se define sin nombre y se utiliza para ser pasada como parametro o asignada a una variable
+FUNCIONES FLECHA
+Identificamos a las funciones flechas como funciones anonimas de sintaxis simplificada. No ahce falta usar la palabra function, se puede reemplazar por =>

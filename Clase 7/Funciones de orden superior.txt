@@ -1,0 +1,11 @@
+METODOS DE BUSQUEDA Y TRANSFORMACION
+
+forEach: Por cada elemento
+Find: Encontrar elementos
+Filter: Filtrar elementos
+Some: Encontrar algun elemento
+Map: Se puede mapear
+Reduce: Sirve para reducir
+Sort: Sirve para ordenar
+
+
