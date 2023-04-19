@@ -92,3 +92,10 @@ const mostrarHTML = () => {
     valorTotal.innerText = `$${total}`
     contadorProductos.innerText = totalDeProductos
 }
+
+let variableAlmacenar = "DECO_HOGAR"
+localStorage.setItem ("deco-hogar-ss", variableAlmacenar)
+let textoAlmacenado = localStorage.getItem ("deco-hogar-ss")
+console.log (textoAlmacenado)
+let variableCarrito
+localStorage.setItem ("carrito", totalDeProductos)
