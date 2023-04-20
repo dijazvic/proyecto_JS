@@ -13,6 +13,10 @@ const productsList = document.querySelector(".container-items")
 
 let todosLosProductos = []
 
+let listaProductosJSON = JSON.stringify(todosLosProductos)
+localStorage.setItem("carrito_compra", listaProductosJSON)
+
+
 const valorTotal = document.querySelector(".total-pagar")
 const contadorProductos = document.querySelector("#contador-productos")
 
@@ -45,6 +49,13 @@ productsList.addEventListener("click", event => {
     mostrarHTML ()
     }
 })
+
+listaProductosJSON = JSON.stringify(todosLosProductos)
+let productosAlmacenados = localStorage.getItem("carrito_compra")
+let productosArray = JSON.parse(productosAlmacenados)
+console.log(productosArray)
+
+
 rowProduct.addEventListener("click", (event) => {
     if(event.target.classList.contains("icon-close")){
         const producto = event.target.parentElement
@@ -93,13 +104,9 @@ const mostrarHTML = () => {
     contadorProductos.innerText = totalDeProductos
 }
 
+
+
 let variableAlmacenar = "DECO_HOGAR"
 localStorage.setItem ("deco-hogar-ss", variableAlmacenar)
 let textoAlmacenado = localStorage.getItem ("deco-hogar-ss")
 console.log (textoAlmacenado)
-
-let listaProductosJSON = JSON.stringify(totalDeProductos)
-localStorage.setItem("carrito_compra", listaProductosJSON)
-let productosAlmacenados = localStorage.getItem("carrito_compra")
-let productosArray = JSON.parse(productosAlmacenados)
-console.log(productosArray)
