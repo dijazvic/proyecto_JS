@@ -46,6 +46,7 @@ productsList.addEventListener("click", event => {
     localStorage.setItem("carrito_compra", listaProductosJSON)
 })
 
+
 listaProductosJSON = JSON.stringify(todosLosProductos);
 localStorage.getItem ("carrito_compra"), listaProductosJSON
 
@@ -97,7 +98,37 @@ const mostrarHTML = () => {
     contadorProductos.innerText = totalDeProductos
 }
 
+const aniadirAlCarrito = document.getElementById("btn-add-carrito")
+aniadirAlCarrito.onclick = mostrarToast
 
+function mostrarToast () {
+    Toastify({
+        text: "Haz añadido el producto al carrito",
+        duration: 3000,
+        destination: "https://github.com/apvarun/toastify-js",
+        newWindow: true,
+        gravity: "top", // `top` or `bottom`
+        position: "center", // `left`, `center` or `right`
+        stopOnFocus: true, // Prevents dismissing of toast on hover
+        style: {
+          background: "linear-gradient(to right, #00b09b, #96c93d)",
+        },
+        onClick: function(){} // Callback after click
+      }).showToast();
+}
+
+const cierreCarrito = document.getElementById("btnCarrito")
+cierreCarrito.onclick = mostrarSWAL
+
+function mostrarSWAL () {
+        Swal.fire({
+        position: 'top-end',
+        icon: 'success',
+        title: "Su compra finalizó correctamente",
+        showConfirmButton: false,
+        timer: 3000
+      })
+}
 
 let variableAlmacenar = "DECO_HOGAR"
 localStorage.setItem ("deco-hogar-ss", variableAlmacenar)
