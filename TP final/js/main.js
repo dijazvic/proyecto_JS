@@ -97,5 +97,9 @@ let variableAlmacenar = "DECO_HOGAR"
 localStorage.setItem ("deco-hogar-ss", variableAlmacenar)
 let textoAlmacenado = localStorage.getItem ("deco-hogar-ss")
 console.log (textoAlmacenado)
-let variableCarrito
-localStorage.setItem ("carrito", totalDeProductos)
+
+let listaProductosJSON = JSON.stringify(totalDeProductos)
+localStorage.setItem("carrito_compra", listaProductosJSON)
+let productosAlmacenados = localStorage.getItem("carrito_compra")
+let productosArray = JSON.parse(productosAlmacenados)
+console.log(productosArray)
